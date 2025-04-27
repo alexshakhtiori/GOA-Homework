@@ -3,13 +3,12 @@ from turtle import *
 #we want to build a house
 
 #step 1: square 
-speed(30)
 shape("turtle")
 width(7)
 color("pink")
-forward(200)     #house height
+forward(200)     #house height (y)
 left(90)
-forward(200)      #house length
+forward(200)      #house length (x)
 left(90)
 forward(200)
 left(90)
